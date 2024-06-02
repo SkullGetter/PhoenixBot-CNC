@@ -45,9 +45,9 @@
           "description": "PhoenixBot CNC Is A DDoS Bot CNC In Python With Json Configurations",
           "color": 3066993,
           "fields": [
-            {"name": "Month", "value": "$19.99/Month", "inline": false},
-            {"name": "3 Months", "value": "$39.99/3 Months", "inline": false},
-            {"name": "Price", "value": "$80/Lifetime", "inline": false}
+            {"name": "Month", "value": "$15/Month", "inline": false},
+            {"name": "3 Months", "value": "$30/3 Months", "inline": false},
+            {"name": "Lifetime", "value": "$60/Lifetime", "inline": false}
           ]
         }
       ]
