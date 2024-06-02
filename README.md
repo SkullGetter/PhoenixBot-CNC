@@ -31,11 +31,7 @@ OR
 
 -VPS-
 
-apt install python3
-apt install python3-pip
-pip install -r req.txt
-chmod 777 *
-./BotLc
+apt install python3; apt install python3-pip; pip install -r req.txt; chmod 777 *; ./BotLc
 
 -PHOENIXSEC TEAM-
 
