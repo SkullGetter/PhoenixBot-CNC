@@ -1,0 +1,75 @@
+{
+  "prefix": "./",
+  "commands": [
+    {
+      "name": "attack",
+      "aliases": ["atk", "test"],
+      "permissions": "manage_emojis",
+      "cooldown": [1, 60],
+      "params": ["host", "port", "secs", "method"],
+      "blacklist": [
+        "1.1.1.1", "8.8.8.8", "2.2.2.2", "3.3.3.3", "4.4.4.4", "5.5.5.5",
+        "6.6.6.6", "7.7.7.7", "104.16.148.244", "153.31.112.70", "23.22.13.113",
+        "149.101.82.100", "65.201.175.169", "74.74.74.74", "70.70.70.70", "71.71.71.71",
+        "73.73.73.73", "74.74.74.73", "73.73.73.8", "127.0.0.1", "9.9.9.9", "10.10.10.10",
+        "72.72.72.72", "255.255.255.255", "123.123.123.123", "153.31.100.0", "153.31.100.1",
+        "153.31.100.2", "153.31.100.3", "153.31.100.4", "11.11.11.11", "22.22.22.22",
+        "33.33.33.33", "44.44.44.44", "55.55.55.55", "66.66.66.66", "77.77.77.77",
+        "75.75.75.75", "144.172.73.222", "84.247.177.99", "162.248.101.56", "192.168.0.0"
+      ],
+      "attack_url": "YOURAPIKEY",
+      "webhook_urls": {
+        "blacklist": "YOURWEHBOOK",
+        "attack": "YOURWEBHOOK"
+      }
+    },
+    {
+      "name": "add",
+      "permissions": "manage_roles",
+      "cooldown": [1, 1],
+      "params": ["usr", "plan", "expiry"],
+      "webhook_url": "WEBHOOK"
+    },
+    {
+      "name": "remove",
+      "permissions": "manage_roles",
+      "cooldown": [1, 1],
+      "params": ["user"],
+      "webhook_url": "WEBHOOK"
+    },
+    {
+      "name": "prices",
+      "embeds": [
+        {
+          "title": "Prices",
+          "description": "PhoenixBot CNC Is A DDoS Bot CNC In Python With Json Configurations",
+          "color": 3066993,
+          "fields": [
+            {"name": "Month", "value": "$19.99/Month", "inline": false},
+            {"name": "3 Months", "value": "$39.99/3 Months", "inline": false},
+            {"name": "Price", "value": "$80/Lifetime", "inline": false}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "methods",
+      "embeds": [
+        {
+          "title": "Methods",
+          "description": "Available Methods.",
+          "color": 3447003,
+          "fields": [
+            {"name": "UDP", "value": "UDP Flood", "inline": false},
+            {"name": "TCP", "value": "TCP Bypass", "inline": false}
+          ]
+        }
+      ]
+    },
+   {
+  "name": "geoip",
+  "params": ["ip"],
+  "blacklist_characters": ["?", "#", "/", "$", "..", "..."]
+   }
+  ]
+}
