@@ -31,10 +31,16 @@ OR
 
 -VPS-
 
-apt install python3; apt install python3-pip; pip install -r req.txt; chmod 777 *; ./BotLc
+apt install python3; apt install python3-pip; pip install -r req.txt; cd dist; chmod 777 *; ./BotLc
 
 -PHOENIXSEC TEAM-
 
 @skullgetterv2 - Instagram
 
+skull.2200 - Discord
+
+@SkullGetter - Telegram
+
 https://t.me/phoenixsecuritynetwork
+
+https://t.me/phoenixseccom
