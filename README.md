@@ -13,6 +13,7 @@ PhoenixBot CNC Is The Way To Go!
 Easy Use
 Weekly Updates
 Json Configurations
+Currently On Version 1.0
 
 -HOW TO RUN-
 
@@ -44,3 +45,12 @@ skull.2200 - Discord
 https://t.me/phoenixsecuritynetwork
 
 https://t.me/phoenixseccom
+
+-UPDATES-
+
+VERSION 1.0:
+
+ADDED AUTO PAGE CREATER TO START COMMAND AFTER 11 FIELDS
+ADDED PORT SCANNER
+ADDED ICMP PINGER
+ADDED PASSWORD LOCK TO CONFIG.JSON!
